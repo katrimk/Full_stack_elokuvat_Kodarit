@@ -1,0 +1,33 @@
+body{
+  background-color: #000000;
+  color: white;
+  font-family: fantasy;
+}
+
+.otsikkokuva{
+  width: 100%;
+}
+
+.otsikkoalue{
+  position: relative;
+  text-align: center;
+}
+
+.otsikkoalue h1{
+  font-size: 3em;
+}
+
+.otsikkoalue h4{
+  font-size: 2em;
+}
+
+.otsikkoteksti{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.valkoinen_nappi{
+  background-color: white;
+}

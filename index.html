@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Leffaprojekti 25.4.2020</title>
+    <link rel="icon" href="images/kameraikoni.png">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/leffat.css">
+    <script src="js/leffat.js"></script>
+  </head>
+  <body>
+
+    <div class="otsikkoalue">
+      <img class="otsikkokuva" src="images/otsikkokuva.jpg" alt="Tässä olisi pitänyt olla otsikkokuva">
+      <div class="otsikkoteksti">
+        <h1>Haetaan Leffoja</h1>
+        <h4>ja niiden dataa</h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+      <form>
+        <div class="form-group">
+          <label for="leffa">Elokuvan nimi:</label>
+          <input type="text" class="form-control" id="leffa">
+        </div>
+        <div class="form-group">
+          <label for="vuosi">Julkaisuvuosi:</label>
+          <input type="text" class="form-control" id="vuosi">
+        </div>
+        <button onclick="hae_elokuva()" class="btn btn-light valkoinen_nappi" type="button" name="button">hae</button>
+      </form>
+
+      </div>
+      <div class="col-sm-4">
+        <h4 id="elokuvan_nimi"></h4>
+        <img id="leffan_posteri" src="">
+
+      </div>
+      <div class="col-sm-4">kolmas</div>
+    </div>
+
+
+
+
+  </body>
+</html>
